@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 895.0, 178.0, 815.0, 457.0 ],
+		"rect" : [ 1042.0, 148.0, 806.0, 449.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 492.25, 360.5, 66.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/sound $1"
 				}
 
@@ -121,7 +120,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 492.25, 261.0, 70.0, 77.0 ],
 					"size" : 3,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -180,19 +179,6 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 12.0,
-					"id" : "obj-47",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 686.0, 156.25, 58.0, 20.0 ],
-					"text" : "Camera3",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -221,7 +207,7 @@
 					"activecolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"annotation" : "",
 					"bgcolor" : [ 0.294117647058824, 0.294117647058824, 0.294117647058824, 1.0 ],
-					"disabled" : [ 0, 0, 0 ],
+					"disabled" : [ 0, 0 ],
 					"hint" : "",
 					"id" : "obj-50",
 					"itemtype" : 0,
@@ -231,8 +217,8 @@
 					"offset" : 25,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 659.5, 106.5, 94.0, 77.0 ],
-					"size" : 3,
+					"patching_rect" : [ 659.5, 106.5, 94.0, 52.0 ],
+					"size" : 2,
 					"value" : 1
 				}
 
@@ -320,18 +306,19 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 492.25, 106.5, 116.0, 77.0 ],
 					"size" : 3,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 230.5, 39.0, 20.0 ],
-					"text" : "frame",
+					"patching_rect" : [ 55.0, 230.5, 31.0, 34.0 ],
+					"text" : "god\nlight",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -355,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.5, 226.5, 33.0, 20.0 ],
+					"patching_rect" : [ 287.5, 230.5, 33.0, 20.0 ],
 					"text" : "pixel",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -439,7 +426,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 245.25, 226.5, 40.5, 40.5 ]
+					"patching_rect" : [ 245.25, 230.5, 40.5, 40.5 ]
 				}
 
 			}
